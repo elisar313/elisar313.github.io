@@ -1,0 +1,207 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0; /* Warna latar belakang umum */
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db; /* Warna teks tautan */
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: white; /* Warna teks tautan saat dihover */
+}
+
+        header {
+            background-color: white; /* Ubah warna latar belakang header menjadi putih */
+            color: #3498db; /* Warna teks header */
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Efek bayangan pada header */
+            width: 100%;
+            z-index: 1;
+    }
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav .logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    font-size: 18px;
+}
+
+main {
+    margin-top: 80px; /* Mendorong konten utama ke bawah header */
+    padding: 20px;
+}
+
+/* Tampilan halaman Home */
+.Home {
+    background-color: #3498db;
+    color: white;
+    padding: 100px 0; 
+    text-align: center;
+}
+
+.Home p:nth-child(1) {
+    font-size: 28px; 
+    font-weight: bold;
+    margin-bottom: 10px; 
+}
+.Home p:nth-child(2) {
+    font-size: 42px; /* Ukuran font ditingkatkan */
+    font-weight: bold;
+    margin-top: 10px; /* Margin atas ditambahkan untuk memisahkan elemen */
+}
+
+.Home p:nth-child(4) {
+    font-size: 20px; /* Ukuran font ditingkatkan */
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.picture {
+    max-width: 200px; /* Ukuran gambar dikurangi agar lebih seimbang dengan teks */
+    height: auto;
+    border-radius: 50%;
+    margin-top: 30px; /* Margin atas ditambahkan untuk memisahkan elemen */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Tampilan halaman About */
+/* Tampilan halaman About */
+.about-section {
+    background-color: #f9f9f9; /* Warna latar belakang untuk halaman About */
+    color: #333;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    max-width: 250px; /* Ukuran gambar ditingkatkan untuk lebih menonjol */
+    height: auto;
+    border-radius: 50%;
+    margin-right: 40px; /* Margin kanan ditingkatkan */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-content {
+    flex: 1;
+}
+
+.about-content h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #3498db; /* Warna teks judul ditingkatkan */
+}
+
+.about-content p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Tampilan halaman Skills */
+.skills {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #3498db; /* Warna teks judul ditingkatkan */
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+/* Tampilan halaman Skills */
+.skills {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #3498db; /* Warna teks judul ditingkatkan */
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Tampilan halaman Contact */
+.contact-section {
+    background-color: #3498db;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 18px;
+    margin: 10px 0;
+}
